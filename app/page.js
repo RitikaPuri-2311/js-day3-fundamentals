@@ -30,7 +30,7 @@ export default function Home() {
         <Badge label="Day 3 " />
       </Card>
 
-      {/* NEW SECTION */}
+      
       <Card title="User Manager" description="Add users below">
         <UserForm addUser={addUser} />
         <UserList users={users} />
